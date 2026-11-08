@@ -1,0 +1,6 @@
+{
+  "name": "RosterSync Pro – Staff Scheduling & Enterprise Ecosystem",
+  "description": "Bilingual (EN/NL) staff roster scheduling platform with drag-and-drop shift planner, multi-department team management, and seamless integration with TalentPulse-HRIS, Kopilot-Projects, and BoekhoudGemak.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
