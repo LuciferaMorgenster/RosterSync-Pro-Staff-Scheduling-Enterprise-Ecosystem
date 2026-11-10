@@ -1,7 +1,7 @@
-import React from 'react';
 import { Calendar, Layers, Share2, FileSpreadsheet, Heart, Github, Globe } from 'lucide-react';
 import { Language, ViewTab } from '../types';
 import { translations } from '../i18n/translations';
+import { PWAInstallButton } from './PWAInstallButton';
 
 interface HeaderProps {
   currentTab: ViewTab;
@@ -119,6 +119,9 @@ export const Header: React.FC<HeaderProps> = ({
                 NL
               </button>
             </div>
+
+            {/* PWA Install Button */}
+            <PWAInstallButton language={language} />
 
             {/* Sponsor Button */}
             <button

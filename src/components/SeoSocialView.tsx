@@ -14,7 +14,7 @@ export const SeoSocialView: React.FC<SeoSocialViewProps> = ({ language }) => {
 
   // Cover image asset path
   const coverImageUrl = '/src/assets/images/rostersync_cover_banner_1794113389294.jpg';
-  const siteUrl = 'https://rostersync-pro.app';
+  const siteUrl = 'https://rostersync-pro.lucifera.eu';
   const pageTitle = 'RosterSync Pro – Staff Roster & Shift Scheduling Platform';
   const pageDescription =
     'Plan weekly staff shifts, manage department rosters, and seamlessly sync with TalentPulse-HRIS, Kopilot-Projects, and BoekhoudGemak.';
@@ -161,7 +161,7 @@ export const SeoSocialView: React.FC<SeoSocialViewProps> = ({ language }) => {
                 </div>
                 <div className="p-3 bg-white">
                   <div className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider">
-                    rostersync-pro.app
+                    rostersync-pro.lucifera.eu
                   </div>
                   <div className="font-semibold text-slate-900 text-sm mt-0.5 leading-snug">
                     {pageTitle}
@@ -208,7 +208,7 @@ export const SeoSocialView: React.FC<SeoSocialViewProps> = ({ language }) => {
                 </div>
                 <div className="p-3 bg-slate-100 border-t border-slate-200">
                   <div className="text-[10px] font-mono text-slate-500 uppercase">
-                    ROSTERSYNC-PRO.APP
+                    ROSTERSYNC-PRO.LUCIFERA.EU
                   </div>
                   <div className="font-bold text-slate-900 text-sm mt-0.5">
                     {pageTitle}
@@ -242,7 +242,7 @@ export const SeoSocialView: React.FC<SeoSocialViewProps> = ({ language }) => {
                   />
                 </div>
                 <div className="p-3 bg-white">
-                  <div className="text-[11px] text-slate-500">rostersync-pro.app</div>
+                  <div className="text-[11px] text-slate-500">rostersync-pro.lucifera.eu</div>
                   <div className="font-bold text-slate-900 text-xs mt-0.5">
                     {pageTitle}
                   </div>

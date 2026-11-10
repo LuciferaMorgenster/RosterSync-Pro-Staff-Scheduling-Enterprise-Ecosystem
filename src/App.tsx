@@ -7,6 +7,7 @@ import { SeoSocialView } from './components/SeoSocialView';
 import { ShiftModal } from './components/ShiftModal';
 import { SponsorModal } from './components/SponsorModal';
 import { GitHubPublishModal } from './components/GitHubPublishModal';
+import { OfflineIndicator } from './components/OfflineIndicator';
 import { ConnectedApp, Employee, KopilotProject, Language, Shift, SyncLogEntry, ViewTab } from './types';
 import {
   INITIAL_CONNECTED_APPS,
@@ -238,6 +239,9 @@ export default function App() {
           <span>{toastMessage}</span>
         </div>
       )}
+
+      {/* PWA Offline Indicator */}
+      <OfflineIndicator language={language} />
 
       {/* 2. Main Content Viewport */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">

@@ -3,15 +3,32 @@
 
 ![RosterSync Pro Cover](src/assets/images/rostersync_cover_banner_1794113389294.jpg)
 
+> 🔗 **Live Web Application**: [https://rostersync-pro.lucifera.eu](https://rostersync-pro.lucifera.eu)  
 > **Bilingual / Meertalig**: [English](#english-documentation) · [Nederlands](#nederlandse-handleiding)
 
 ---
 
 ## English Documentation
 
+### 🌐 Live Production URL
+Access the live version directly in your browser or install it as a desktop/mobile app:  
+👉 **[https://rostersync-pro.lucifera.eu](https://rostersync-pro.lucifera.eu)**
+
+---
+
 ### 🌟 Overview
 
-**RosterSync Pro** is a modern, enterprise-grade staff scheduling and roster management platform designed for shift-based teams, operational departments, and service organizations. Built with React, TypeScript, and Tailwind CSS, it delivers an intuitive weekly drag-and-drop scheduler and a unified data bridge connecting **TalentPulse-HRIS**, **Kopilot-Projects**, and **BoekhoudGemak**.
+**RosterSync Pro** is a modern, enterprise-grade staff scheduling and roster management platform designed for shift-based teams, operational departments, and service organizations. Built with React, TypeScript, Vite, and Tailwind CSS, it delivers an intuitive weekly drag-and-drop scheduler and a unified data bridge connecting **TalentPulse-HRIS**, **Kopilot-Projects**, and **BoekhoudGemak**.
+
+---
+
+### 📱 Progressive Web App (PWA) Version
+
+RosterSync Pro is a fully compliant **Progressive Web App (PWA)**:
+- **Instant Install**: Install directly to your desktop (Chrome, Edge) or mobile home screen (Android, iOS Safari) using the in-app **Install App** button.
+- **Standalone Experience**: Runs without browser address bars for a fluid, native app-like experience.
+- **Offline Resilience**: Built-in service worker precaches application assets and Google fonts. In case of internet disruption, local roster data and cached state remain accessible, accompanied by an automatic offline indicator.
+- **Compliant Icons**: Packaged with 192x192, 512x512, maskable Android squircles, and iOS `apple-touch-icon.png`.
 
 ---
 
@@ -56,11 +73,11 @@ To publish this codebase directly to your GitHub account (`luciferamorgenster@gm
 # 1. Initialize git repository
 git init
 
-# 2. Stage all files (including bilingual README and cover image)
+# 2. Stage all files (including bilingual README, PWA manifest, and cover image)
 git add .
 
 # 3. Create initial commit
-git commit -m "feat: initial commit of RosterSync Pro with TalentPulse, Kopilot and BoekhoudGemak integrations"
+git commit -m "feat: initial commit of RosterSync Pro with TalentPulse, Kopilot, BoekhoudGemak, and PWA support"
 
 # 4. Set main branch
 git branch -M main
@@ -78,9 +95,25 @@ git push -u origin main
 
 ## Nederlandse Handleiding
 
+### 🌐 Live Productie URL
+Open de live versie direct in uw browser of installeer de applicatie op uw apparaat:  
+👉 **[https://rostersync-pro.lucifera.eu](https://rostersync-pro.lucifera.eu)**
+
+---
+
 ### 🌟 Overzicht
 
-**RosterSync Pro** is een moderne personeelsrooster- en planningsapplicatie ontworpen voor ploegendiensten, operationele afdelingen en projectteams. Gebouwd met React, TypeScript en Tailwind CSS, combineert het een interactief weekrooster met een geautomatiseerde gegevenskoppeling tussen **TalentPulse-HRIS**, **Kopilot-Projects** en **BoekhoudGemak**.
+**RosterSync Pro** is een moderne personeelsrooster- en planningsapplicatie ontworpen voor ploegendiensten, operationele afdelingen en projectteams. Gebouwd met React, TypeScript, Vite en Tailwind CSS, combineert het een interactief weekrooster met een geautomatiseerde gegevenskoppeling tussen **TalentPulse-HRIS**, **Kopilot-Projects** en **BoekhoudGemak**.
+
+---
+
+### 📱 Progressive Web App (PWA) Versie
+
+RosterSync Pro is uitgerust als een volwaardige **Progressive Web App (PWA)**:
+- **Direct Installeerbaar**: Installeer de app direct op uw computer (Chrome, Edge) of smartphone (Android, iOS Safari) met de ingebouwde **Installeer App** knop in de navigatiebalk.
+- **Standalone Ervaring**: Draait zelfstandig zonder browserranden of adresbalk voor een native app-gevoel.
+- **Offline Beschikbaarheid**: Voorzien van een Service Worker die statische bestanden en weblettertypen cachet. Bij netwerkuitval blijven uw rooster en instellingen bereikbaar en verschijnt automatisch een offlinemelding.
+- **PWA Iconen**: Geoptimaliseerd met 192x192, 512x512, maskable Android squircles en `apple-touch-icon.png` voor iOS.
 
 ---
 
@@ -128,7 +161,7 @@ git init
 git add .
 
 # 3. Maak de eerste commit aan
-git commit -m "feat: eerste release van RosterSync Pro met koppelingen voor TalentPulse, Kopilot en BoekhoudGemak"
+git commit -m "feat: eerste release van RosterSync Pro met koppelingen voor TalentPulse, Kopilot, BoekhoudGemak en PWA ondersteuning"
 
 # 4. Stel de main branch in
 git branch -M main
